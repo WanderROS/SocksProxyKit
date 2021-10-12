@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SocksProxyKit_Tests' do
+  pod 'SocksProxyKit', :path => '../'
+  
+  
+end
