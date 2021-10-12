@@ -1,0 +1,16 @@
+PODS:
+  - SocksProxyKit (0.1.0)
+
+DEPENDENCIES:
+  - SocksProxyKit (from `../`)
+
+EXTERNAL SOURCES:
+  SocksProxyKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SocksProxyKit: 94b04d3d4082fd4a0d412902f43ebd5cf2665f23
+
+PODFILE CHECKSUM: 36e730fdeffbebf2ac40b5609dcfaece687c826e
+
+COCOAPODS: 1.11.2

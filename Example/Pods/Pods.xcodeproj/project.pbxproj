@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		107A7044BED9507C6AEAB554E9919028 /* SocksProxyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E253F69C918F7DF14536CA269F8698 /* SocksProxyKit-dummy.m */; };
+		737E884165CB6DE12087330B94826473 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6F9B1BA4582928CEF8F29B242940A8 /* ReplaceMe.swift */; };
+		75BD1E0602B10EB29FBA05428E1C6A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		75CBAFDA502C500D84BEC3263B6AE804 /* SocksProxyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8330E2785A8DEDE08EB06C468614D9 /* SocksProxyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		935B29FB9449CBE997F8D73599613615 /* Pods-SocksProxyKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8607D9BECE6FB9710B91653B5D4954 /* Pods-SocksProxyKit_Tests-dummy.m */; };
+		E09921ABFE7483C06270924D539B0BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E32AE537F29BDB876776961DF449D9DB /* Pods-SocksProxyKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55DDAAE6453954343E6F5FAFEC0EC4C0 /* Pods-SocksProxyKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5008D06ABEB904A3064C196B046CD242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3973AF8B37E81A6A2D8F811741993A;
+			remoteInfo = SocksProxyKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077E637BD486C20354235F1B64ADE157 /* Pods-SocksProxyKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SocksProxyKit_Tests.modulemap"; sourceTree = "<group>"; };
+		0E4744DD4661109B10D473FFF35D8308 /* Pods-SocksProxyKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocksProxyKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F493AE7518D38FB3E6FEA669B51AE48 /* Pods-SocksProxyKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocksProxyKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0F8607D9BECE6FB9710B91653B5D4954 /* Pods-SocksProxyKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocksProxyKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		54E253F69C918F7DF14536CA269F8698 /* SocksProxyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocksProxyKit-dummy.m"; sourceTree = "<group>"; };
+		55DDAAE6453954343E6F5FAFEC0EC4C0 /* Pods-SocksProxyKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocksProxyKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5AAC9A50F5FA62D60277E7503DBBF5D3 /* Pods-SocksProxyKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocksProxyKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61ECF7A6E2BCB899DB998CBE37C48D19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		696FA60F9626E55D72B34EBCD052610F /* Pods-SocksProxyKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocksProxyKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C76107EDA9A8AB92EA6DA0E381AC39D /* Pods-SocksProxyKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocksProxyKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		879674D15972E4396077B005FE214720 /* Pods-SocksProxyKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SocksProxyKit_Tests"; path = Pods_SocksProxyKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A581E573CBBBFBACB3E1D82AD39D7E5E /* SocksProxyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocksProxyKit-Info.plist"; sourceTree = "<group>"; };
+		AF8330E2785A8DEDE08EB06C468614D9 /* SocksProxyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocksProxyKit-umbrella.h"; sourceTree = "<group>"; };
+		C014D967575CEF114966CF7091896200 /* SocksProxyKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocksProxyKit.debug.xcconfig; sourceTree = "<group>"; };
+		C46432561CEA0B0E7EC7B1B52F8E24C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CA6B00F25387CF67B3E4D55E57525760 /* SocksProxyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocksProxyKit.modulemap; sourceTree = "<group>"; };
+		CBDD37B879A93F655B0D90EB0455CAA5 /* SocksProxyKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SocksProxyKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC6F9B1BA4582928CEF8F29B242940A8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SocksProxyKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D7EFE998B920FE084C41D6A37C33ECFE /* SocksProxyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocksProxyKit.release.xcconfig; sourceTree = "<group>"; };
+		DD52D252E6C3EDB05F6ABC4B2543A0AC /* Pods-SocksProxyKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocksProxyKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECF9FFBD5A87840F04702F62837FDF7B /* SocksProxyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocksProxyKit-prefix.pch"; sourceTree = "<group>"; };
+		FC2BCB115390521CD2DF35BA0A310D81 /* SocksProxyKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocksProxyKit; path = SocksProxyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC04F84E26B5221C80FBFBA633F9C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BD1E0602B10EB29FBA05428E1C6A31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0CE9FED86722BABAF8E4A893B0BAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09921ABFE7483C06270924D539B0BCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FDA84E3C1F062AC9C4F4C2C60279504 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B00F25387CF67B3E4D55E57525760 /* SocksProxyKit.modulemap */,
+				54E253F69C918F7DF14536CA269F8698 /* SocksProxyKit-dummy.m */,
+				A581E573CBBBFBACB3E1D82AD39D7E5E /* SocksProxyKit-Info.plist */,
+				ECF9FFBD5A87840F04702F62837FDF7B /* SocksProxyKit-prefix.pch */,
+				AF8330E2785A8DEDE08EB06C468614D9 /* SocksProxyKit-umbrella.h */,
+				C014D967575CEF114966CF7091896200 /* SocksProxyKit.debug.xcconfig */,
+				D7EFE998B920FE084C41D6A37C33ECFE /* SocksProxyKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SocksProxyKit";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58B67B25ED70397ED6895060C3EB8C3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879674D15972E4396077B005FE214720 /* Pods-SocksProxyKit_Tests */,
+				FC2BCB115390521CD2DF35BA0A310D81 /* SocksProxyKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58EAF6F9B38939DC142DE03C2D9D7091 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93372A946F252F8C2A2EFEAAE268D31F /* Pods-SocksProxyKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5DBE79322C38C06C34A1F12A50A6A7FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38640BE0A4C7B607F8FE80BEAD70E5A /* SocksProxyKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		93372A946F252F8C2A2EFEAAE268D31F /* Pods-SocksProxyKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				077E637BD486C20354235F1B64ADE157 /* Pods-SocksProxyKit_Tests.modulemap */,
+				DD52D252E6C3EDB05F6ABC4B2543A0AC /* Pods-SocksProxyKit_Tests-acknowledgements.markdown */,
+				5AAC9A50F5FA62D60277E7503DBBF5D3 /* Pods-SocksProxyKit_Tests-acknowledgements.plist */,
+				0F8607D9BECE6FB9710B91653B5D4954 /* Pods-SocksProxyKit_Tests-dummy.m */,
+				696FA60F9626E55D72B34EBCD052610F /* Pods-SocksProxyKit_Tests-frameworks.sh */,
+				7C76107EDA9A8AB92EA6DA0E381AC39D /* Pods-SocksProxyKit_Tests-Info.plist */,
+				55DDAAE6453954343E6F5FAFEC0EC4C0 /* Pods-SocksProxyKit_Tests-umbrella.h */,
+				0E4744DD4661109B10D473FFF35D8308 /* Pods-SocksProxyKit_Tests.debug.xcconfig */,
+				0F493AE7518D38FB3E6FEA669B51AE48 /* Pods-SocksProxyKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SocksProxyKit_Tests";
+			path = "Target Support Files/Pods-SocksProxyKit_Tests";
+			sourceTree = "<group>";
+		};
+		A38640BE0A4C7B607F8FE80BEAD70E5A /* SocksProxyKit */ = {
+			isa = PBXGroup;
+			children = (
+				CC6F9B1BA4582928CEF8F29B242940A8 /* ReplaceMe.swift */,
+				AA12D28BC07B762D13BC228F3543C65D /* Pod */,
+				4FDA84E3C1F062AC9C4F4C2C60279504 /* Support Files */,
+			);
+			name = SocksProxyKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AA12D28BC07B762D13BC228F3543C65D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				61ECF7A6E2BCB899DB998CBE37C48D19 /* LICENSE */,
+				C46432561CEA0B0E7EC7B1B52F8E24C7 /* README.md */,
+				CBDD37B879A93F655B0D90EB0455CAA5 /* SocksProxyKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5DBE79322C38C06C34A1F12A50A6A7FC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				58B67B25ED70397ED6895060C3EB8C3B /* Products */,
+				58EAF6F9B38939DC142DE03C2D9D7091 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1ABF4CC545BCC42096DEC540B0A50B7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CBAFDA502C500D84BEC3263B6AE804 /* SocksProxyKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14C958ECA85B510BAD79611D4DE8302 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32AE537F29BDB876776961DF449D9DB /* Pods-SocksProxyKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D3973AF8B37E81A6A2D8F811741993A /* SocksProxyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56CFBDE94067AA32E763FBC4BA2A1190 /* Build configuration list for PBXNativeTarget "SocksProxyKit" */;
+			buildPhases = (
+				1ABF4CC545BCC42096DEC540B0A50B7F /* Headers */,
+				50B5F96CC410B14E418C1DEEF9D88B18 /* Sources */,
+				3AC04F84E26B5221C80FBFBA633F9C42 /* Frameworks */,
+				389E817EFC6132511DEA114038C66B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocksProxyKit;
+			productName = SocksProxyKit;
+			productReference = FC2BCB115390521CD2DF35BA0A310D81 /* SocksProxyKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		A727E7EA5C0911C6851DD1B350A71F5A /* Pods-SocksProxyKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CBAC0D326BF02096492501159503DDB /* Build configuration list for PBXNativeTarget "Pods-SocksProxyKit_Tests" */;
+			buildPhases = (
+				F14C958ECA85B510BAD79611D4DE8302 /* Headers */,
+				102F12390C524D11084C6AADF430E2F6 /* Sources */,
+				BD0CE9FED86722BABAF8E4A893B0BAD4 /* Frameworks */,
+				C2BE881652BE090C59506A3BB0075837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B3D4BB478EC06484B02EDDF46D2080 /* PBXTargetDependency */,
+			);
+			name = "Pods-SocksProxyKit_Tests";
+			productName = Pods_SocksProxyKit_Tests;
+			productReference = 879674D15972E4396077B005FE214720 /* Pods-SocksProxyKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 58B67B25ED70397ED6895060C3EB8C3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A727E7EA5C0911C6851DD1B350A71F5A /* Pods-SocksProxyKit_Tests */,
+				7D3973AF8B37E81A6A2D8F811741993A /* SocksProxyKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		389E817EFC6132511DEA114038C66B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BE881652BE090C59506A3BB0075837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102F12390C524D11084C6AADF430E2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935B29FB9449CBE997F8D73599613615 /* Pods-SocksProxyKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B5F96CC410B14E418C1DEEF9D88B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737E884165CB6DE12087330B94826473 /* ReplaceMe.swift in Sources */,
+				107A7044BED9507C6AEAB554E9919028 /* SocksProxyKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3B3D4BB478EC06484B02EDDF46D2080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocksProxyKit;
+			target = 7D3973AF8B37E81A6A2D8F811741993A /* SocksProxyKit */;
+			targetProxy = 5008D06ABEB904A3064C196B046CD242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14A6D8FB04A32EED8C3FB5D24222B303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F493AE7518D38FB3E6FEA669B51AE48 /* Pods-SocksProxyKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocksProxyKit_Tests/Pods-SocksProxyKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocksProxyKit_Tests/Pods-SocksProxyKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98C4095C80769CCA2B5692769068DA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EFE998B920FE084C41D6A37C33ECFE /* SocksProxyKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocksProxyKit/SocksProxyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocksProxyKit/SocksProxyKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocksProxyKit/SocksProxyKit.modulemap";
+				PRODUCT_MODULE_NAME = SocksProxyKit;
+				PRODUCT_NAME = SocksProxyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9F07421E1971C5C51117151133DE7D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C014D967575CEF114966CF7091896200 /* SocksProxyKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocksProxyKit/SocksProxyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocksProxyKit/SocksProxyKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocksProxyKit/SocksProxyKit.modulemap";
+				PRODUCT_MODULE_NAME = SocksProxyKit;
+				PRODUCT_NAME = SocksProxyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5ED0F94FB2E5D111E772D2B8259BBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4744DD4661109B10D473FFF35D8308 /* Pods-SocksProxyKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SocksProxyKit_Tests/Pods-SocksProxyKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocksProxyKit_Tests/Pods-SocksProxyKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56CFBDE94067AA32E763FBC4BA2A1190 /* Build configuration list for PBXNativeTarget "SocksProxyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F07421E1971C5C51117151133DE7D6 /* Debug */,
+				98C4095C80769CCA2B5692769068DA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CBAC0D326BF02096492501159503DDB /* Build configuration list for PBXNativeTarget "Pods-SocksProxyKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5ED0F94FB2E5D111E772D2B8259BBC8 /* Debug */,
+				14A6D8FB04A32EED8C3FB5D24222B303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

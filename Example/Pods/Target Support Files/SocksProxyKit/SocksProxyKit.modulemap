@@ -1,0 +1,6 @@
+framework module SocksProxyKit {
+  umbrella header "SocksProxyKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
