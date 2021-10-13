@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'SocksProxyKit is my first Pod Project.Learn How to use Pod to create a library.Maybe is not bad,to be a iOS developer!Test right!'
 
   s.homepage         = 'https://github.com/WanderROS/SocksProxyKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
