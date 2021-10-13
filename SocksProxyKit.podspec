@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SocksProxyKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SocksProxyKit.'
+  s.summary          = 'SocksProxyKit is my first Pod Project.Learn How to use Pod to create a library.Maybe is not bad,to be a iOS developer!'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
